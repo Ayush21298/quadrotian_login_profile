@@ -17,7 +17,8 @@
 // (if you're using LESS with the built-in default config, you'll want
 //  to change `assets/styles/importer.less` instead.)
 var cssFilesToInject = [
-  'styles/**/*.css'
+  'styles/**/*.css',
+  'styles/styleb.css'
 ];
 
 
@@ -30,6 +31,9 @@ var jsFilesToInject = [
 
   // Dependencies like jQuery, or Angular are brought in here
   'js/custom/jquery-3.2.1.js',
+  //'js/custom/jquery.min.js',
+  //'js/custom/easyResponsiveTabs.js',
+  'js/custom/indexb.js',
   'js/dependencies/**/*.js',
 
   // All of the rest of your client-side js files
